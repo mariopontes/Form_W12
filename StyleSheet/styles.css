@@ -1,0 +1,91 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button:disabled {
+    opacity: 0.6;
+}
+
+header {
+    background: #5e35b1;
+}
+
+header .box_header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .box_header img {
+    height: 30px;
+}
+
+header .box_header h2 {
+    color: white;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 1366px;
+    margin: auto;
+}
+
+form {
+    margin: auto;
+    font-size: 16px;
+    display: flex;
+    flex-flow: column;
+}
+
+form label {
+    padding-top: 26px;
+    font-weight: bold;
+}
+
+form input {
+    font-size: 16px;
+    padding: 10px;
+    height: 21px;
+}
+
+form .box_inputs {
+    display: flex;
+    flex-flow: column;
+}
+
+.box_btn {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.box_btn .btn {
+    border: 0;
+    font-size: 16px;
+    background: #43a047;
+    color: white;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.limit_box {
+    max-width: 600px;
+    margin: auto;
+}
+
+.cadastro {
+    font-size: 72px;
+    font-weight: normal;
+    margin-top: 66px;
+    margin-bottom: 45px;
+}
+
+#changeData {
+    display: none;
+    border: 5px solid #ccc;
+    padding: 10px;
+    margin-top: 50px;
+}
